@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="todo.css">
+  <title>To-do-List</title>
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <div class="todo-container">
+    <label for="taskInput">Task Name : </label>
+    <input type="text" id="taskInput" placeholder="Add a new task" ></label>
+
+    <label for="date-time">Date : </label>
+    <input type="date" id="date-time" required>
+<label>Priority :</label>
+    <select id="priority">
+    <option style="color: grey;">High</option>
+    <option>Medium</option>
+    <option>Low</option>
+    </select>
+    
+    <button id="addTask">Add Task</button>
+  </div>
+    <div id="taskList"></div>
+  <script src="todo.js"></script>
+</body>
+</html>
