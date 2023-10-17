@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1 {
+    background-color: #6f9fd1b3;
+    width: 100vw;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .todo-container {
+    width: fit-content;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    color: grey;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    background-color: rgb(211, 245, 245);
+  }
+  .todo-container>label{
+    float: left;
+  }
+  .todo-container>button{
+    align-self: center;
+  }
+
+  
+  /* ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  } */
+  
+  #addTask {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #addTask:hover {
+    background-color: gainsboro;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+
+#taskInput{
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+}
+option{
+  color: grey;
+}
+  #date-time{
+     width: 250px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #priority{
+    width: 260px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .container{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+  }
+  .container>div,button{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 200px;
+    height: 40px;
+  }
+
+  #taskList{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    /* display: none; */
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    /* display: none; */
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    /* display: none; */
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    /* display: none; */
+}
+input:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+.delete{
+  border: none;
+  color: azure;
+  width: 150px;
+  background-color: rgba(139, 199, 241, 0.694);
+border-radius: 5px;
+color: black;
+}
+.delete:hover{
+background-color: #6f9fd1b3;
+}
